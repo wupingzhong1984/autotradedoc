@@ -1,0 +1,10 @@
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:635)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:712)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:695)
+	at application.ComputeProfit.main(ComputeProfit.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:61)

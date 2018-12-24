@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IBTradeConfig>
+<IBApiConfig>
+<active>0</active>
+<accounttype>paper</accounttype>
+</IBApiConfig>
 <IBServerConfig>
 <localhost>127.0.0.1</localhost>
-<port>4002</port>
 <clientid>0</clientid>
-<account>U9969195</account>
+<liveport>4002</liveport>
+<paperport>4002</paperport>
+<liveaccount>U9986966</liveaccount>
+<paperaccount>DU1300317</paperaccount>
 <maxtrytimes>2</maxtrytimes>
 </IBServerConfig>
 <StockConfig>

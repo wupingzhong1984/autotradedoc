@@ -22,5 +22,6 @@
 <stockcurrency>USD</stockcurrency>
 <stockexpiry>0.0</stockexpiry>
 <orderquantity>100</orderquantity>
+<firstorderquantitypercent>0.5</firstorderquantitypercent>
 </StockConfig>
 </IBTradeConfig>
